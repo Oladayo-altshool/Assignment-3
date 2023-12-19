@@ -1,0 +1,265 @@
+body{
+    background-color: #F5F8FA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-bottom: 2px solid #E0E6EA;
+    padding-bottom: 20px;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: #1D2C3C;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.logo{
+    width: 150px;
+    height: 30px;
+}
+
+header li {
+    display: inline;
+    padding: 12px ;
+}
+
+/* header nav{
+    border: 1px solid black;
+} */
+
+.Rounded{
+ border: 2px solid #1D2C3C;
+ border-radius: 4px;
+}
+
+.png{
+    width: 30px;
+    height: px;
+}
+
+.wrapper{
+    margin-top: 30px;
+    display: flex;
+    /* border: 1px solid green; */
+    width: 60%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control{
+    width: 70%;
+    padding: 30px;
+}
+.form-control h1{
+    font-weight: 400;
+}
+
+.Blue-Part{
+    background-color: #1179BF;
+    width: 30%;
+    padding: 50px;
+    color: white;
+    border-radius: 0 6px 6px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dollar{
+    position: relative;
+    padding-left: 20px;
+}
+
+.dollar span:nth-child(2){
+ font-size: 50px;
+ font-weight: 200;
+}
+
+.dollar span:nth-child(1){
+position: absolute;
+top: 16px;
+left:6px;
+}
+
+.dollar span:nth-child(3){
+position: absolute;
+top:30px;
+left: 90px;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+span h4{
+    font-weight: 700;
+}
+
+.freelance p{
+font-weight: 700;
+font-size: 20px;
+}
+
+i{
+    font-weight: 400;
+}
+
+.checkmarks div{
+display: flex;
+align-items: center;
+gap: 18px;
+}
+
+.png-2{
+    filter: invert(90%) sepia(50%) saturate(815%) hue-rotate(170deg) brightness(97%) contrast(87%);
+    width: 30px;
+}
+
+.switch{
+color: white;
+}   
+
+hr{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.ftp p{
+font-weight: 400px;
+font-size: 18px;
+font-style: italic;
+line-height: 30px;
+}
+
+.pic {
+display: flex;
+align-items: center;
+gap: 18px;
+}
+
+.pic img {
+border-radius: 99px;
+width: auto;
+}
+
+span .png-1{
+    filter: invert(50%) sepia(30%) saturate(815%) hue-rotate(170deg) brightness(97%) contrast(87%);
+    width: 30px;
+}
+
+.png-1{
+    filter: invert(50%) sepia(30%) saturate(815%) hue-rotate(170deg) brightness(97%) contrast(87%);
+    width: 30px;
+}
+  
+.input-control{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 40%;
+}
+
+.input-control input{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EDEFF2;
+}
+
+.credit-card{
+position: relative;
+}
+
+.month {
+display: flex;
+gap: 16px;
+position: absolute;
+top: 29.5px;
+left: 380px;
+color: #646E7A;
+}
+
+.basic-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-bottom: 30px;
+}
+
+.form-ctr{
+ width: 100%;
+}
+
+.form-ctr .input-control{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 100%;
+    background-color: #038E7D;
+    border: none;
+    padding: 18px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 5px ;
+    font-size: 18px;
+    font-weight: 700;   
+}
+
+.qmark{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+.qmark img{
+    height: 30px;
+}
+
+.qmark p b{
+font-size: 16px;
+color: black;
+}
+
+.qmark p{
+    color: #646E7A;
+}
+
+.qmark p a{
+    color: #646E7A;
+}
+.stripe{
+display: grid;
+place-items: center;
+}
+
+.stripe img{
+    width: auto;
+}
+
+footer{
+    font-weight: 400;
+    font-size: 14px;
+    color: #636B6F;
+}
+
+.term{
+    text-decoration: none;
+    color: #31708F;
+}
